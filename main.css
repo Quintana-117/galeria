@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(32, 150, 185);
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: rgb(29, 204, 216);
+    padding: 1%;
+}
+.barraSuperior {
+    background-color:rgb(122, 213, 216);
+    padding: 10px;
+    border-style: dashed;
+    border-color: rgb(94, 143, 146);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+        color: black;
+        text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    }   
+    img {
+        justify-items: end;       
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: antiquewhite;
+    }
+}
+.imagenes {
+    background-color: rgb(19, 139, 129);
+    border-style: dashed;
+    border-color: antiquewhite;
+    padding: 1%;
+    margin: 1% 10%;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    img {
+        border-style:solid;
+        border-color: antiquewhite;
+        border-radius: 10px;
+        width: 300px;
+        height: 200px;
+    }
+}
+.intro {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    .txt {
+        color: antiquewhite;
+        width: 600px;
+        border-radius: 10px;
+        border-style: dashed;
+        border-color: antiquewhite;
+        background-color: rgb(19, 139, 99);
+        text-align: center;
+        align-content: center;
+        p {
+            padding: 2%;
+        }
+    }
+    img {
+        border-radius: 10px;
+        border-style: solid;
+        border-color: antiquewhite;
+        width: 500px;
+    }
+}
+.autor {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 185, 134);
+    margin: 1% 37%;
+    padding: 2%;
+    width: 23%;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: rgb(11, 55, 80);
+    flex-direction: column;
+    h1 {
+        text-align: center;
+        font-variant: small-caps;
+        color: rgb(6, 117, 65);
+    }
+    img {
+        border-radius: 100px;
+        border-style: double;
+        border-width: 10px;
+        border-color: antiquewhite;
+    }
+}
+.contacto {
+    background-color: rgb(19, 139, 129);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    a {
+        color: rgb(33, 163, 152);
+        font-size: xx-large;
+    }
+}
